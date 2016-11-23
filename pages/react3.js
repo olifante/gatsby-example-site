@@ -3,10 +3,17 @@
 
 import React from 'react'
 import Helmet from "react-helmet"
+import { config } from 'config'
 
 export default () => (
   <div>
-    <Helmet title="React example" />
+    <Helmet
+      title={config.siteTitle}
+      meta={[
+        { "name": "description", "content": "Sample" },
+        { "name": "keywords", "content": "sample, something" },
+      ]}
+      />
     <h1>
       Hello World!
     </h1>
