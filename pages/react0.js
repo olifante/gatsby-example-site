@@ -6,7 +6,7 @@ import React from 'react'
 export default () => (
   <div>
     <h1>
-      Hello World!
+      Hello ReDI School Class!
     </h1>
     <p>Welcome to your new clean Gatsby site</p>
   </div>

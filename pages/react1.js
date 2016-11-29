@@ -8,7 +8,7 @@ export default () => (
   <div>
     <Helmet title="React example" />
     <h1>
-      Hello World!
+      Hello ReDI School Class!
     </h1>
     <p>Welcome to your new clean Gatsby site</p>
   </div>
